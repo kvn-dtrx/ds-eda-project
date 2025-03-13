@@ -1,18 +1,15 @@
 ---
 title: Hypotheses (Definitions?)
-author: kvn-dtrx
 ---
 
-Recall that our client's description (which is in some places denigrating in her and her lawyer's opinion) was as follows:
+Recall that our client's description (which is partially denigrating in her and her lawyer's opinion) was as follows:
 
-<div style="text-align: center;">
-  Amy Williams | Seller | Mafiosi, sells several central houses (top 10%) over time, needs average outskirt houses over time to hide from the FBI.
-</div>
+> Amy Williams | Seller | Mafiosi, sells several central houses (top 10%) over time, needs average outskirt houses over time to hide from the FBI.
 
 By detokenising the demands of our client, we see that we have to answer the following questions:
 
-1. What is a good statistical measure for the **"centrality"** of a house?
-2. When is a house on the outskirts considered to be **average**?
+- What is a good measure for the **"centrality"** of a house?
+- When is a house on the outskirts considered to be **average**?
 
 A house should be located on the outskirts precisely if it has a low "centrality" measure.
 
@@ -28,6 +25,12 @@ Let $M$ be the barycentre of all house locations. Then, we could say that house 
 
 Let $A$ be a fixed area like a disk or a rectangle. Then, we say house $H$ is more central than house $L$ if the area $A$ centred around $H$ contains more houses than the area $A$ centred around $L$.
 
+## Version #3: Distance Sum to Nearest Neighbours
+
+Let $N$ be a strictly positive integer. Then, we say house $H$ is more central than house $L$ if the sum of distances to the $N$ nearest neighbours of $H$ is less than the corresponding sum for $L$.
+
 # Ad "Averageness"
 
-**TODO** Fill the gaps.
+## Version #1: Distance from the "*15" Columns
+
+We say house $H$ is more average than house $L$ if an (appropriately) weighted sum of the distances between the original value and the value of the "15-average" of $H$ is smaller than the corresponding value for $L$.
