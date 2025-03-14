@@ -1,40 +1,15 @@
----
-title: README
----
+# ds-project-template
 
-<!-- [![Shipping files](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml) -->
+[![Shipping files](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml)
 
-***DISCLAIMER***
+Template for creating ds simple projects
 
-Dear reader,
-
-for the very improblable case that a Google/DuckDuckGo/... search has led you here: I think you are wrong and reading further would be a waste of (your) lifetime. I urgently recommend not to read further and to inspect other search results or to refine you search query.
-
-# Description
-
-We analyse data from the provided King County House database for the client Amy Williams, a
-<!-- TODO Fill Description -->
-
-# Requirements
-
-``` bash
-> python3 --version
-Python 3.11.3
+## Requirements
 
 - pyenv
-> cat requirements.txt
-altair==5.3.0
-seaborn==0.13.2
-jupyterlab==4.0.1
-ipywidgets==8.0.6
-jupyterlab-dash==0.1.0a3
-python-dotenv==1.0.0
-psycopg2-binary==2.9.7
-SQLAlchemy==2.0.15
-missingno==0.5.2
-```
+- python==3.11.3
 
-# Setup
+## Setup
 
 One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of...
 
@@ -50,7 +25,9 @@ At the end, you want to make sure that people who are interested in your project
 pip freeze > requirements.txt
 ```
 
-# Unit testing (Optional)
+*Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
+
+### Unit testing (Optional)
 
 If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
 
@@ -60,13 +37,13 @@ pytest
 
 This command will execute all the functions in your project that start with the word **test**.
 
-# Set up your Environment
+## Set up your Environment
 
 This repo contains a requirements.txt file with a list of all the packages and dependencies you will need.
 
 Before you can start with plotly in Jupyter Lab you have to install node.js (if you haven't done it before).
 
-- Check **Node version** by run the following commands:
+- Check **Node version**  by run the following commands:
 
     ```sh
     node -v
@@ -74,11 +51,11 @@ Before you can start with plotly in Jupyter Lab you have to install node.js (if 
 
     If you haven't installed it yet, begin at `step_1`. Otherwise, proceed to `step_2`.
 
-## **`macOS`** type the following commands
+### **`macOS`** type the following commands
 
 - `Step_1:` Update Homebrew and install Node by following commands:
 
-    ```sh
+    ``` sh
     brew update
     brew install node
     ```
@@ -124,7 +101,7 @@ Before you can start with plotly in Jupyter Lab you have to install node.js (if 
     pip install -r requirements.txt
     ```
 
-  **`Note:`**
+ **`Note:`**
     If you encounter an error when trying to run `pip install --upgrade pip`, try using the following command:
 
    ```Bash
