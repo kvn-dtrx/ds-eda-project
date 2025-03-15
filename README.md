@@ -1,38 +1,24 @@
----
-title: README
----
+<!-- **CAVEAT:** If you are not a bot and your presence here is not completely deliberate, you are probably at the wrong place! -->
 
-<!-- [![Shipping files](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml) -->
+# DS EDA Project -- King County House Prices
 
-***DISCLAIMER***
+## Synopsis
 
-Dear reader,
+This repository deals with a partial analysis of a dataset containing information about House Sales in King County. We created this for a (hopefully fictional) client whose description reads as follows:
 
-for the very improblable case that a Google/DuckDuckGo/... search has led you here: I think you are wrong and reading further would be a waste of (your) lifetime. I urgently recommend not to read further and to inspect other search results or to refine you search query.
+> Amy Williams | Seller | Mafiosa, sells several central houses (top 10%) over time, needs average outskirt houses over time to hide from the FBI.
 
-# Description
+For a more detailed description, we refer to the [assignment](./assignment.md).
 
-We analyse data from the provided King County House database for the client Amy Williams, a
-<!-- TODO Fill Description -->
+The actual analysis with the technical details can be found [here](./EDA.ipynb), the presentation of our result that explicitly aims the purpose to communicate the results to a non-technical audience, see [here](slides.pdf)
 
 # Requirements
 
-``` bash
-> python3 --version
-Python 3.11.3
-
+- Python 3.11.3
 - pyenv
-> cat requirements.txt
-altair==5.3.0
-seaborn==0.13.2
-jupyterlab==4.0.1
-ipywidgets==8.0.6
-jupyterlab-dash==0.1.0a3
-python-dotenv==1.0.0
-psycopg2-binary==2.9.7
-SQLAlchemy==2.0.15
-missingno==0.5.2
-```
+- node
+
+As usual, the modules that will be installed for the virtual environment are listed in [requirements.txt](./requirements.txt).
 
 # Setup
 
