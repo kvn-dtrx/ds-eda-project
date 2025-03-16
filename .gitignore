@@ -149,3 +149,6 @@ models/*.pkl
 
 # vscode Stuff
 .vscode
+
+# Side product of slide exports
+slides.html
