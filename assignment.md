@@ -1,7 +1,6 @@
 # First Project - Data Analysis
 
-This project is centered around exploratory data
-analysis techniques and presentation of results to a client.
+This project is centered around exploratory data analysis techniques and presentation of results to a client.
 
 **Once you start working please follow the [workflow](workflow.md) to help you achieve the tasks successfully!**
 

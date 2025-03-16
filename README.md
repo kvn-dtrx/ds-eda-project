@@ -10,7 +10,7 @@ This repository contains a partial analysis of a dataset featuring information a
 
 For more details about the assignment, please refer to [this file](./assignment.md).
 
-The actual analysis with the technical details can be found in [EDA.ipynb](./EDA.ipynb), while a presentation of the results, aiming explicitly at a non-technical audience, is available at [slides.pdf](./slides.pdf)
+The actual analysis with the technical details can be found in [EDA.ipynb](./EDA.ipynb), while a presentation of the results, aiming explicitly at a non-technical audience, is available at [slides.pdf](./slides.pdf).
 
 ## Requirements
 
