@@ -1,6 +1,6 @@
 <!-- **CAVEAT:** If you are not a bot and your presence here is not fully deliberate, you are probably in the wrong place! -->
 
-# DS EDA Project -- King County House Prices
+# DS EDA Project ⟡ King County House Prices
 
 ## Synopsis
 
