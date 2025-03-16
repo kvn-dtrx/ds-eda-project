@@ -1,7 +1,6 @@
 # First Project - Data Analysis
 
-This project is centered around exploratory data
-analysis techniques and presentation of results to a client.
+This project is centered around exploratory data analysis techniques and presentation of results to a client.
 
 **Once you start working please follow the [workflow](workflow.md) to help you achieve the tasks successfully!**
 
@@ -17,7 +16,7 @@ analysis techniques and presentation of results to a client.
 
 # The Tasks
 
-1. Create a new repo using this [template](hhttps://github.com/neuefische/ds-eda-project-template).
+1. Create a new repo using this [template](https://github.com/neuefische/ds-eda-project-template).
 
 2. Through EDA/statistical analysis above please come up with **AT LEAST 3 insights** regarding the overall data. One should be geographical.
 
@@ -28,8 +27,8 @@ _Note, you can take either the perspective of a buyer or a seller. Choose a clie
 # The Deliverables
 
 0. **New repository** from [template](https://github.com/neuefische/ds-eda-project-template)
-1. A **well documented Jupyter Notebook** (see [here](https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python) for an example) containing the code you've written for this project and comments explaining it. This work will need to be pushed to your GitHub repository in order to submit your project. Do not push all the analysis... just the analysis that is relevant! You can start with the [starter notebook](EDA.ipynb).
-2. An **updated and organized README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
+1. A **well documented Jupyter Notebook** (see [here](https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python) for an example) containing the code you've written for this project and comments explaining it. This work will need to be pushed to your GitHub repository in order to submit your project. Do not push all the analysis... just the analysis that is relevant! You can start with the [starter notebook](EDA_orig.ipynb).
+2. An **updated and organized **README**.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
 3. A **short Keynote/PowerPoint/Google Slides/Jupyter slides presentation** giving a **high-level overview** of your methodology and recommendations for **non-technical clients**. The duration of the presentation should be **10 minutes**, then the discussion will continue for 5 minutes. Also put your slides (delivered as a PDF export) on Github to get a well-rounded project. **Do not present using your jupyter notebook!**
 4. _Optional_ - A Python script for processing and cleaning your data, here feel free to write clean code, using functions and docstrings. Even more optional you can also do unit tests. If you do this part, you may also update your EDA notebook to make use of these functions. See [optional](optional) folder for example.
 
