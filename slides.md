@@ -35,7 +35,7 @@ Is it true???
 
 ---
 
-###### ??? The more bathrooms, the more bedrooms. ???
+###### The more bathrooms, the more bedrooms. (?)
 
 #### <span style="color: hotpink">YES!</span>
 
@@ -53,7 +53,7 @@ Is it true???
 
 ---
 
-###### ??? The presence of a waterfront affects the prize. ???
+###### The presence of a waterfront affects the prize. (?)
 
 #### <span style="color: hotpink">YES!</span>
 
@@ -69,7 +69,7 @@ Is it true???
 
 ---
 
-###### ??? The latitude and the longitude of a house location do not affect each other. ???
+###### The latitude and the longitude of a house location do not affect each other. (?)
 
 #### Probably <span style="color: hotpink">YES!</span>
 
@@ -81,22 +81,11 @@ Is it true???
 
 ### Our Client
 
-> Amy Williams, Seller, Mafiosa, sells several central houses (top 10%) over time, needs average outskirt houses over time to hide from the FBI.
-
-> NO!!!
-
---- 
-
-### Our Client
-
-> ~~Amy Williams, Seller, Mafiosa, sells several central houses (top 10%) over time, needs average outskirt houses over time to hide from the FBI.~~
-
-
-> NO!!!
+##### Amy Williams, Seller, <span style="color: gray">~~Mafiosa~~</span> <span style="color: red">businesswoman by trade</span>, sells several central houses (top 10%) over time, needs average outskirt houses over time to <span style="color: gray">~~hide from the FBI~~</span> <span style="color: red">avoid entanglements with the FBI</span>.
 
 ---
 
-Corrected Description
+###### Amy Williams, Seller, businesswoman by trade, sells several central houses (top 10%) over time, needs average outskirt houses over time to avoid entanglements with the FBI.
 
 ### ⇒ How to define ...
 
@@ -105,6 +94,8 @@ Corrected Description
 - "**privacy**" (on the outskirts)?
 
 ---
+
+
 
 ### How to define ...
 
@@ -122,7 +113,7 @@ Take the number of neighbours in a vicinity of fixed size!
 
 </span>
 
-![Scatterplot Latitude vs. Longitude width:500px height:400px](./plots/centrality-plot.png)
+![Scatterplot Latitude vs. Longitude width:600px height:400px](./plots/centrality-plot.png)
 
 ###### ⇒ Sell "green" and buy "red" houses!
 
@@ -131,7 +122,7 @@ Take the number of neighbours in a vicinity of fixed size!
 ### How to define ...
 
 - (top 10%) **centrality**?
-- <span style="color: hotpink">**exceptionality** (on the outskirts)?</span>
+- <span style="color: hotpink">**exceptionality**</span> (on the outskirts)?
 - "**privacy**" (on the outskirts)?
 
 ---
@@ -140,13 +131,13 @@ Take the number of neighbours in a vicinity of fixed size!
 
 <span style="font-size: 20px;">
 
-A house is more exceptional the more it differs from its immediate neighbours in terms of living space and lot size!
+A house becomes more exceptional the more it differs from its immediate neighbours in terms of living space and lot size!
 
 </span>
 
 ![Scatterplot Exceptionality width:600px height:400px](./plots/exceptionality-plot.png)
 
-###### ⇒ Avoid regions indicated by cursor!
+###### ⇒ Avoid regions indicated by the cursor!
 
 ---
 
@@ -154,7 +145,7 @@ A house is more exceptional the more it differs from its immediate neighbours in
 
 - (top 10%) **centrality**?
 - **exceptionality** (on the outskirts)?
-- <span style="color: hotpink">**"privacy"** (on the outskirts)?</span>
+- <span style="color: hotpink">**"privacy"**</span> (on the outskirts)?
 
 ---
 
@@ -168,8 +159,8 @@ Take the presence of a basement!
 
 ![Scatterplot Privacy width:600px height:400px](./plots/privacy-plot.png)
 
-###### ⇒ Avoid regions indicated by cursor!
+###### ⇒ Avoid regions indicated by the cursor!
 
 ---
 
-# <span style="color:hotpink">... The End.</span>
+# <span style="color:hotpink">The End</span>
