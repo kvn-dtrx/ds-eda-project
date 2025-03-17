@@ -2,14 +2,14 @@
 
 This project is centered around exploratory data analysis techniques and presentation of results to a client.
 
-**Once you start working please follow the [workflow](workflow.md) to help you achieve the tasks successfully!**
+**Once you start working please follow the [workflow](./workflow.md) to help you achieve the tasks successfully!**
 
 # The data
 
 - You will use the King County Housing Data: This dataset contains information about home sales in King County (USA).
 - You will find the data in the eda schema of our database. You can access it via DBeaver. Please save the csv file in the data folder where it will not be uploaded to github.
 - Please explore the dataset in DBeaver and come up with a Join for the 2 tables.
-- The description of the column names can be found in the `column_names.md` file.
+- The description of the column names can be found in the [column_names.md](../column_names.md) file.
 - The column names may NOT be clear at times:
 
   _In the real world we will run into similar challenges. We would then go ask our business clients for more information. In this case, let us assume our business client who would give us information, left the company. Meaning we would have to identify and look up what each column names might actually mean. (google is your friend ;) )_
@@ -27,7 +27,7 @@ _Note, you can take either the perspective of a buyer or a seller. Choose a clie
 # The Deliverables
 
 0. **New repository** from [template](https://github.com/neuefische/ds-eda-project-template)
-1. A **well documented Jupyter Notebook** (see [here](https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python) for an example) containing the code you've written for this project and comments explaining it. This work will need to be pushed to your GitHub repository in order to submit your project. Do not push all the analysis... just the analysis that is relevant! You can start with the [starter notebook](EDA_orig.ipynb).
+1. A **well documented Jupyter Notebook** (see [here](https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python) for an example) containing the code you've written for this project and comments explaining it. This work will need to be pushed to your GitHub repository in order to submit your project. Do not push all the analysis... just the analysis that is relevant! You can start with the [starter notebook](EDA.ipynb).
 2. An **updated and organized **README**.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
 3. A **short Keynote/PowerPoint/Google Slides/Jupyter slides presentation** giving a **high-level overview** of your methodology and recommendations for **non-technical clients**. The duration of the presentation should be **10 minutes**, then the discussion will continue for 5 minutes. Also put your slides (delivered as a PDF export) on Github to get a well-rounded project. **Do not present using your jupyter notebook!**
 4. _Optional_ - A Python script for processing and cleaning your data, here feel free to write clean code, using functions and docstrings. Even more optional you can also do unit tests. If you do this part, you may also update your EDA notebook to make use of these functions. See [optional](optional) folder for example.
