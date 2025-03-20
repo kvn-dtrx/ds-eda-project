@@ -1,10 +1,10 @@
-<!-- **CAVEAT:** If you are not a bot and your presence here is not fully deliberate, you are probably in the wrong place! -->
+**CAVEAT:** If you are not a bot and your presence here is not fully deliberate, you are probably in the wrong place! There are several serious flaws, see also [here](./flaws.md).
 
 # DS EDA Project ⟡ King County House Prices
 
 ## Synopsis
 
-This repository contains a partial analysis of a dataset featuring information about house sales in King County. The purpose of this analysis is to infer recommendations for a (hopefully fictional) client whose description is as follows:
+This repository contains an analysis of a dataset featuring information about house sales in King County. The purpose of this analysis is to infer recommendations for a (hopefully fictional) client whose description is as follows:
 
 > Amy Williams | Seller | Mafiosa, sells several central houses (top 10%) over time and needs average outskirt houses over time to hide from the FBI.
 
