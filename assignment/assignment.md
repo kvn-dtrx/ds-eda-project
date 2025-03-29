@@ -9,7 +9,7 @@ This project is centered around exploratory data analysis techniques and present
 - You will use the King County Housing Data: This dataset contains information about home sales in King County (USA).
 - You will find the data in the eda schema of our database. You can access it via DBeaver. Please save the csv file in the data folder where it will not be uploaded to github.
 - Please explore the dataset in DBeaver and come up with a Join for the 2 tables.
-- The description of the column names can be found in the [column_names.md](../column_names.md) file.
+- The description of the column names can be found in the [column-names.md](../column-names.md) file.
 - The column names may NOT be clear at times:
 
   _In the real world we will run into similar challenges. We would then go ask our business clients for more information. In this case, let us assume our business client who would give us information, left the company. Meaning we would have to identify and look up what each column names might actually mean. (google is your friend ;) )_
