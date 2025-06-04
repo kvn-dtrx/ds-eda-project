@@ -12,6 +12,12 @@ For more details about the assignment, please refer to [this file](./assignment/
 
 The actual analysis with the technical details can be found in [eda.ipynb](./eda.ipynb), while a presentation of the results, aiming explicitly at a non-technical audience, is available at [slides.pdf](./slides.pdf).
 
+##
+
+Annotated DirTree
+
+Was created from template https://github.com/neuefische/ds-eda-project-template
+
 ## Requirements
 
 - Python 3.11.3
