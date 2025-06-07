@@ -16,42 +16,61 @@ The actual analysis with the technical details can be found in [eda.ipynb](./eda
 
 Annotated DirTree
 
-Was created from template https://github.com/neuefische/ds-eda-project-template
+Was created from template <https://github.com/neuefische/ds-eda-project-template>
 
-## Requirements
+## Installation
+
+### Requirements
 
 - Python 3.11.3
 - pyenv
-- Node.js
 
-And additionally, as usual, the modules to be installed for the virtual environment are listed in [requirements.txt](./requirements.txt).
+### Setup
 
-## Setup
+1. Navigate to a working directory of your choice, then clone the repository and enter it:
 
-For macOS or Linux, execute:
+   ``` shell
+   git clone https://github.com/kvn-dtrx/ds-ml-project_flight-prediction-challenge.git &&
+       cd ds-ml-project_flight-prediction-challenge
+   ```
 
-``` bash
-pyenv local 3.11.3
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
+2. Choose the right setup option based on your operating system:
 
-On Windows (with PowerShell), use:
+   - `make unix`: macOS/Linux.
+   - `make win`: Windows (PowerShell).
 
-``` powershell
-pyenv local 3.11.3
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install --upgrade pip
-pip install -r requirements.txt
-```
+   If you prefer to run the commands manually yourself or want to inspect what a `make` target does first, use the `-n` flag for a dry run. This prints the commands without executing them:
 
-<!-- # Unit testing
+   ``` shell
+   make -n <target>
+   ```
 
-The repository also provides some unit tests. In order to run the tests, execute:
+3. Activate the virtual environment:
 
-``` bash
-pytest
-``` -->
+   - On macOS/Linux, run:
+
+     ```shell
+     source .venv/bin/activate
+     ```
+
+   - On Windows (PowerShell), run:
+
+     ``` powershell
+     .\.venv\Scripts\Activate.ps1
+     ```
+
+---
+
+## Colophon
+
+**Authors:**
+
+[kvn-dtrx](https://github.com/kvn-dtrx)
+
+**Template:**
+
+This repository was created from the [Neue Fische DS EDA Project Template](https://github.com/neuefische/ds-eda-project-template).
+
+**License:**
+
+[MIT License](licence.txt)
