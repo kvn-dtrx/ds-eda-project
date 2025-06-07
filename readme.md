@@ -1,6 +1,8 @@
-**CAVEAT:** If you are not a bot and your presence here is not fully deliberate, you are probably in the wrong place! There are several serious flaws, see also [here](./flaws.md).
+# DS EDA Project: King County House Prices
 
-# DS EDA Project ⟡ King County House Prices
+**CAVEAT:**
+
+If you are not a bot and your presence here is not fully deliberate, you are probably in the wrong place! There are several serious flaws, see also [here](./flaws.md).
 
 ## Synopsis
 
@@ -8,50 +10,63 @@ This repository contains an analysis of a dataset featuring information about ho
 
 > Amy Williams | Seller | Mafiosa, sells several central houses (top 10%) over time and needs average outskirt houses over time to hide from the FBI.
 
-For more details about the assignment, please refer to [this file](./assignment/assignment.md).
+For more details about the assignment, please refer to [this file](./archive/assignment.md).
 
-The actual analysis with the technical details can be found in [eda.ipynb](./eda.ipynb), while a presentation of the results, aiming explicitly at a non-technical audience, is available at [slides.pdf](./slides.pdf).
+## Repository Organisation
 
-##
+The organization of the repository follows common conventions and therefore requires little explanation. For a quick orientation, we mention only the following:
 
-Annotated DirTree
+| Path | Content |
+| --- | --- |
+| [`./notebooks/*.ipynb`](./notebooks) | Analysis notebooks with technical details |
+| [`./docs/slides.html`](./docs/slides.md) | Presentation slides for non-technical audience |
+| [`./plots/*.png`](./docs) | Plots created by the notebooks |
 
-Was created from template https://github.com/neuefische/ds-eda-project-template
+## Installation
 
-## Requirements
+### Requirements
 
 - Python 3.11.3
 - pyenv
-- Node.js
 
-And additionally, as usual, the modules to be installed for the virtual environment are listed in [requirements.txt](./requirements.txt).
+### Setup
 
-## Setup
+1. Navigate to a working directory of your choice, then clone the repository and enter it:
 
-For macOS or Linux, execute:
+   ``` shell
+   git clone https://github.com/kvn-dtrx/ds-eda-project_king-county-house-prices.git &&
+       cd ds-eda-project_king-county-house-prices
+   ```
 
-``` bash
-pyenv local 3.11.3
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
+2. Choose the right setup option based on your operating system:
 
-On Windows (with PowerShell), use:
+   - `make unix`: macOS/Linux.
+   - `make win`: Windows (PowerShell).
 
-``` powershell
-pyenv local 3.11.3
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install --upgrade pip
-pip install -r requirements.txt
-```
+   If you prefer to run the commands manually yourself or want to inspect what a `make` target does first, use the `-n` flag for a dry run. This prints the commands without executing them:
 
-<!-- # Unit testing
+   ``` shell
+   make -n <target>
+   ```
 
-The repository also provides some unit tests. In order to run the tests, execute:
+3. Activate the virtual environment:
 
-``` bash
-pytest
-``` -->
+   - On macOS/Linux, run:
+
+     ```shell
+     source .venv/bin/activate
+     ```
+
+   - On Windows (PowerShell), run:
+
+     ``` powershell
+     .\.venv\Scripts\Activate.ps1
+     ```
+
+## Colophon
+
+**Authors:** [kvn-dtrx](https://github.com/kvn-dtrx)
+
+**Template:** This repository was created from the [Neue Fische DS EDA Project Template](https://github.com/neuefische/ds-eda-project-template).
+
+**License:** [MIT License](licence.txt)

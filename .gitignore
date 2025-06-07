@@ -151,9 +151,6 @@ dmypy.json
 
 # Project-specific
 
-# Side product of slide exports
-slides.html
-
 # Data directory
 data/*
 !data/.gitkeep

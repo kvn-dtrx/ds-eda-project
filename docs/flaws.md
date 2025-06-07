@@ -5,4 +5,3 @@
 - Relieving images are missing.
 - Hypotheses are not related to the client's needs.
 - Scatterplots were preferred over bar charts.
-

@@ -1,14 +1,12 @@
-# Global Variables
 PYTHON_VERSION := 3.11.3
 VENV := .venv
-TARGETS := help unix win
+
 BOLD_WHITE := \033[1;37m
 RESET := \033[0m
 
-# Descriptors that should be treated as targets and not as files.
+TARGETS := help unix win
 .PHONY: $(TARGETS)
 
-# Target Definitions
 help:
 	@echo
 	@echo "    $(BOLD_WHITE)Setup:$(RESET)"
