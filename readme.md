@@ -8,9 +8,7 @@ This repository contains an analysis of a dataset featuring information about ho
 
 > Amy Williams | Seller | Mafiosa, sells several central houses (top 10%) over time and needs average outskirt houses over time to hide from the FBI.
 
-For more details about the assignment, please refer to [this file](./assignment/assignment.md).
-
-The actual analysis with the technical details can be found in [eda.ipynb](./eda.ipynb), while a presentation of the results, aiming explicitly at a non-technical audience, is available at [slides.pdf](./slides.pdf).
+For more details about the assignment, please refer to [this file](./archive/template/assignment.md).
 
 ## Repository Organisation
 
