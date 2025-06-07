@@ -1,6 +1,8 @@
-**CAVEAT:** If you are not a bot and your presence here is not fully deliberate, you are probably in the wrong place! There are several serious flaws, see also [here](./flaws.md).
-
 # DS EDA Project: King County House Prices
+
+**CAVEAT:**
+
+If you are not a bot and your presence here is not fully deliberate, you are probably in the wrong place! There are several serious flaws, see also [here](./flaws.md).
 
 ## Synopsis
 
