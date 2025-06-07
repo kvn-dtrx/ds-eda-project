@@ -1,6 +1,6 @@
 **CAVEAT:** If you are not a bot and your presence here is not fully deliberate, you are probably in the wrong place! There are several serious flaws, see also [here](./flaws.md).
 
-# DS EDA Project ⟡ King County House Prices
+# DS EDA Project: King County House Prices
 
 ## Synopsis
 
@@ -18,9 +18,9 @@ The organisation of the repository tries to follow common conventions and should
 
 | Path | Content |
 | --- | --- |
-| `./notebooks/*.ipynb` | Analysis notebooks |
-| `./docs/slides.html` | Presentation slides |
-| `./plots/*.png` | Plots created by the notebooks |
+| [`./notebooks/*.ipynb`](./notebooks) | Analysis notebooks with technical details |
+| [`./docs/slides.html`](./docs/slides.md) | Presentation slides for non-technical audience |
+| [`./plots/*.png`](./docs) | Plots created by the notebooks |
 
 ## Installation
 
