@@ -12,11 +12,15 @@ For more details about the assignment, please refer to [this file](./assignment/
 
 The actual analysis with the technical details can be found in [eda.ipynb](./eda.ipynb), while a presentation of the results, aiming explicitly at a non-technical audience, is available at [slides.pdf](./slides.pdf).
 
-##
+## Repository Organisation
 
-Annotated DirTree
+The organisation of the repository tries to follow common conventions and should therefore need no greater explanation. For a quick orientation, let us only mention:
 
-Was created from template <https://github.com/neuefische/ds-eda-project-template>
+| Path | Content |
+| --- | --- |
+| `./notebooks/*.ipynb` | Analysis notebooks |
+| `./docs/slides.html` | Presentation slides |
+| `./plots/*.png` | Plots created by the notebooks |
 
 ## Installation
 
