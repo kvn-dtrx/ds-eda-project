@@ -34,8 +34,8 @@ The organisation of the repository tries to follow common conventions and should
 1. Navigate to a working directory of your choice, then clone the repository and enter it:
 
    ``` shell
-   git clone https://github.com/kvn-dtrx/ds-ml-project_flight-prediction-challenge.git &&
-       cd ds-ml-project_flight-prediction-challenge
+   git clone https://github.com/kvn-dtrx/ds-eda-project_king-county-house-prices.git &&
+       cd ds-eda-project_king-county-house-prices
    ```
 
 2. Choose the right setup option based on your operating system:
