@@ -67,14 +67,8 @@ The organisation of the repository tries to follow common conventions and should
 
 ## Colophon
 
-**Authors:**
+**Authors:** [kvn-dtrx](https://github.com/kvn-dtrx)
 
-[kvn-dtrx](https://github.com/kvn-dtrx)
+**Template:** This repository was created from the [Neue Fische DS EDA Project Template](https://github.com/neuefische/ds-eda-project-template).
 
-**Template:**
-
-This repository was created from the [Neue Fische DS EDA Project Template](https://github.com/neuefische/ds-eda-project-template).
-
-**License:**
-
-[MIT License](licence.txt)
+**License:** [MIT License](licence.txt)
