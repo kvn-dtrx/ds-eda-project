@@ -10,13 +10,13 @@ TARGETS := help unix win
 help:
 	@echo
 	@echo "    $(BOLD_WHITE)Setup:$(RESET)"
-	@echo "    make unix            - Set up virtual environment and dependencies on macOS/Linux"
-	@echo "    make win             - Set up virtual environment and dependencies on Windows (PowerShell)"
+	@echo "    make unix : Set up virtual environment and dependencies on macOS/Linux"
+	@echo "    make win  : Set up virtual environment and dependencies on Windows (PowerShell)"
 	@echo
 	@echo "    $(BOLD_WHITE)Important Make Flags:$(RESET)"
-	@echo "    -n                   - Dry-run (print commands without running them)"
-	@echo "    -s                   - Silent mode (don't print executed commands)"
-	@echo "    --debug[=b|v|a]      - Debug info (b=basic [default], v=verbose, a=all)"
+	@echo "    -n              : Dry-run (print commands without running them)"
+	@echo "    -s              : Silent mode (don't print executed commands)"
+	@echo "    --debug[=b|v|a] : Debug info (b=basic [default], v=verbose, a=all)"
 	@echo
 unix:
 	pyenv local $(PYTHON_VERSION)

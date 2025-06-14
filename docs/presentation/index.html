@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>My Reveal.js Presentation</title>
+  <title>DS EDA Project: King County House Prices</title>
+  <meta name="author" content="Kevin Dietrich" />
+  <meta name="date" content="2025-03-17" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Link local assets -->
-  <!-- <link rel="stylesheet" href="./assets/reveal.css" /> -->
+
   <link rel="stylesheet" href="assets/reveal.js/dist/reveal.css" />
-  <!-- <link rel="stylesheet" href="./assets/theme/black.css" /> -->
   <link rel="stylesheet" href="assets/reveal.js/dist/theme/black.css" />
   <script src="assets/reveal.js/dist/reveal.js"></script>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -34,50 +34,57 @@
       </section>
 
       <section>
-        <h4>Hypothesis #1</h4>
-        <h3>The more bathrooms, the more bedrooms.</h3>
+        <h2>Hypothesis #1</h2>
+        <p><strong>The more bathrooms, the more bedrooms.</strong></p>
         <p><em>Is it true???</em></p>
       </section>
 
       <section>
-        <h6>The more bathrooms, the more bedrooms. (?)</h6>
-        <h4><span style="color: hotpink;">YES!</span></h4>
+        <p><strong>The more bathrooms, the more bedrooms. (?)</strong></p>
+        <p style="color: hotpink; font-weight: bold; font-size: 1.2em;">YES!</p>
         <img src="assets/plots/bathrooms-vs-bedrooms.png" alt="Scatterplot Bathrooms vs. Bedrooms" width="500" height="400" />
-        <h6>[Correlation ≈ 0.5]</h6>
+        <p><small>[Correlation ≈ 0.5]</small></p>
       </section>
 
       <section>
-        <h4>HYPOTHESIS #2</h4>
-        <h3>The presence of a waterfront affects the prize.</h3>
+        <h2>Hypothesis #2</h2>
+        <p><strong>The presence of a waterfront affects the prize.</strong></p>
         <p>Is it true???</p>
       </section>
 
       <section>
-        <h6>The presence of a waterfront affects the prize. (?)</h6>
-        <h4><span style="color: hotpink;">YES!</span></h4>
-        <img src="assets/plots/price-on-waterfront.png" alt="Scatterplot Bathrooms vs. Bedrooms" width="600" height="375" />
+        <p><strong>The presence of a waterfront affects the prize. (?)</strong></p>
+        <p style="color: hotpink; font-weight: bold; font-size: 1.2em;">YES!</p>
+        <img src="assets/plots/price-on-waterfront.png" alt="Scatterplot Price on Waterfront" width="600" height="375" />
       </section>
 
       <section>
-        <h4>HYPOTHESIS #3</h4>
-        <h3>The latitude and the longitude of a house location do not affect each other.</h3>
+        <h2>Hypothesis #3</h2>
+        <p><strong>The latitude and the longitude of a house location do not affect each other.</strong></p>
         <p>Is it true???</p>
       </section>
 
       <section>
-        <h6>The latitude and the longitude of a house location do not affect each other. (?)</h6>
-        <h4>Probably <span style="color: hotpink;">YES!</span></h4>
+        <p><strong>The latitude and the longitude of a house location do not affect each other. (?)</strong></p>
+        <p>Probably <span style="color: hotpink; font-weight: bold;">YES!</span></p>
         <img src="assets/plots/lat-vs-long.png" alt="Scatterplot Latitude vs. Longitude" width="500" height="375" />
-        <h6>[Correlation ≈ -0.1]</h6>
+        <p><small>[Correlation ≈ -0.1]</small></p>
       </section>
 
       <section>
-        <h3>Our Client</h3>
-        <h5>Amy Williams, Seller, <span style="color: gray; text-decoration: line-through;">Mafiosa</span> <span style="color: red;">businesswoman by trade</span>, sells several central houses (top 10%) over time, needs average outskirt houses over time to <span style="color: gray; text-decoration: line-through;">hide from the FBI</span> <span style="color: red;">avoid entanglements with the FBI</span>.</h5>
+        <h2>Our Client</h2>
+        <p>
+          Amy Williams, Seller, <span style="color: gray; text-decoration: line-through;">Mafiosa</span> 
+          <span style="color: red;">businesswoman by trade</span>, sells several central houses (top 10%) over time, needs average outskirt houses over time to 
+          <span style="color: gray; text-decoration: line-through;">hide from the FBI</span> 
+          <span style="color: red;">avoid entanglements with the FBI</span>.
+        </p>
       </section>
 
       <section>
-        <h6>Amy Williams, Seller, businesswoman by trade, sells several central houses (top 10%) over time, needs average outskirt houses over time to avoid entanglements with the FBI.</h6>
+        <p>
+          Amy Williams, Seller, businesswoman by trade, sells several central houses (top 10%) over time, needs average outskirt houses over time to avoid entanglements with the FBI.
+        </p>
 
         <h3>⇒ How to define ...</h3>
         <ul>
@@ -98,12 +105,11 @@
 
       <section>
         <h3>(Top 10%) Centrality?</h3>
-
-        <p><span style="font-size: 20px;">Take the number of neighbours in a vicinity of fixed size!</span></p>
-
-        <img src="assets/plots/centrality-plot.png" alt="Scatterplot Latitude vs. Longitude" width="600" height="400" />
-
-        <h6>⇒ Sell "green" and buy "red" houses!</h6>
+        <p style="font-size: 20px;">
+          Take the number of neighbours in a vicinity of fixed size!
+        </p>
+        <img src="assets/plots/centrality-plot.png" alt="Scatterplot Centrality" width="600" height="400" />
+        <p><small>⇒ Sell "green" and buy "red" houses!</small></p>
       </section>
 
       <section>
@@ -117,11 +123,11 @@
 
       <section>
         <h3>Exceptionality?</h3>
-        <p><span style="font-size: 20px;">
+        <p style="font-size: 20px;">
           A house becomes more exceptional the more it differs from its immediate neighbours in terms of living space and lot size!
-        </span></p>
+        </p>
         <img src="assets/plots/exceptionality-plot.png" alt="Scatterplot Exceptionality" width="600" height="400" />
-        <h6>⇒ Avoid regions indicated by the cursor!</h6>
+        <p><small>⇒ Avoid regions indicated by the cursor!</small></p>
       </section>
 
       <section>
@@ -135,19 +141,19 @@
 
       <section>
         <h3>Privacy</h3>
-        <p><span style="font-size: 20px;">
+        <p style="font-size: 20px;">
           Take the presence of a basement!
-        </span></p>
+        </p>
         <img src="assets/plots/privacy-plot.png" alt="Scatterplot Privacy" width="600" height="400" />
-        <h6>⇒ Avoid regions indicated by the cursor!</h6>
+        <p><small>⇒ Avoid regions indicated by the cursor!</small></p>
       </section>
 
       <section>
-        <h1><span style="color: hotpink;">The End</span></h1>
+         <h1><span style="color: white;">∎</span></h1>
       </section>
+
     </div>
   </div>
-
 
   <script>
     Reveal.initialize({
