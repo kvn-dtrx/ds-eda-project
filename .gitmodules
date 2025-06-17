@@ -2,5 +2,5 @@
 	path = archive/template
 	url = https://github.com/neuefische/ds-eda-project-template
 [submodule "docs/presentation/assets/reveal.js"]
-	path = docs/presentation/assets/reveal.js
+	path = docs/presentation/vendor/reveal.js
 	url = https://github.com/hakimel/reveal.js.git
