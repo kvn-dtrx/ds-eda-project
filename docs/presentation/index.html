@@ -7,9 +7,9 @@
   <meta name="date" content="2025-03-17" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <link rel="stylesheet" href="assets/reveal.js/dist/reveal.css" />
-  <link rel="stylesheet" href="assets/reveal.js/dist/theme/black.css" />
-  <script src="assets/reveal.js/dist/reveal.js"></script>
+  <link rel="stylesheet" href="vendor/reveal.js/dist/reveal.css" />
+  <link rel="stylesheet" href="vendor/reveal.js/dist/theme/black.css" />
+  <script src="vendor/reveal.js/dist/reveal.js"></script>
 </head>
 <body>
   <div class="reveal">
@@ -32,6 +32,14 @@
         <h1>Getting Familiar with the Data Set</h1>
       </section>
 
+      <style>
+        .answer {
+          color: hotpink;
+          font-weight: bold;
+          font-size: 1.2em;
+        }
+      </style>
+
       <section>
         <h2>Hypothesis #1</h2>
         <p><strong>The more bathrooms, the more bedrooms.</strong></p>
@@ -40,8 +48,8 @@
 
       <section>
         <p><strong>The more bathrooms, the more bedrooms. (?)</strong></p>
-        <p style="color: hotpink; font-weight: bold; font-size: 1.2em;">YES!</p>
-        <img src="assets/plots/bathrooms-vs-bedrooms.png" alt="Scatterplot Bathrooms vs. Bedrooms" width="500" height="400" />
+        <p class="answer">YES!</p>
+        <img src="plots/bathrooms-vs-bedrooms.png" alt="Scatterplot Bathrooms vs. Bedrooms" width="500" height="400" />
         <p><small>[Correlation ≈ 0.5]</small></p>
       </section>
 
@@ -53,8 +61,8 @@
 
       <section>
         <p><strong>The presence of a waterfront affects the prize. (?)</strong></p>
-        <p style="color: hotpink; font-weight: bold; font-size: 1.2em;">YES!</p>
-        <img src="assets/plots/price-on-waterfront.png" alt="Scatterplot Price on Waterfront" width="600" height="375" />
+        <p class="answer">YES!</p>
+        <img src="plots/price-on-waterfront.png" alt="Scatterplot Price on Waterfront" width="600" height="375" />
       </section>
 
       <section>
@@ -65,8 +73,8 @@
 
       <section>
         <p><strong>The latitude and the longitude of a house location do not affect each other. (?)</strong></p>
-        <p>Probably <span style="color: hotpink; font-weight: bold;">YES!</span></p>
-        <img src="assets/plots/lat-vs-long.png" alt="Scatterplot Latitude vs. Longitude" width="500" height="375" />
+        <p class="answer-yes">Probably YES!</p>
+        <img src="plots/lat-vs-long.png" alt="Scatterplot Latitude vs. Longitude" width="500" height="375" />
         <p><small>[Correlation ≈ -0.1]</small></p>
       </section>
 
@@ -107,7 +115,7 @@
         <p style="font-size: 20px;">
           Take the number of neighbours in a vicinity of fixed size!
         </p>
-        <img src="assets/plots/centrality-plot.png" alt="Scatterplot Centrality" width="600" height="400" />
+        <img src="plots/centrality-plot.png" alt="Scatterplot Centrality" width="600" height="400" />
         <p><small>⇒ Sell "green" and buy "red" houses!</small></p>
       </section>
 
@@ -125,7 +133,7 @@
         <p style="font-size: 20px;">
           A house becomes more exceptional the more it differs from its immediate neighbours in terms of living space and lot size!
         </p>
-        <img src="assets/plots/exceptionality-plot.png" alt="Scatterplot Exceptionality" width="600" height="400" />
+        <img src="plots/exceptionality-plot.png" alt="Scatterplot Exceptionality" width="600" height="400" />
         <p><small>⇒ Avoid regions indicated by the cursor!</small></p>
       </section>
 
@@ -143,7 +151,7 @@
         <p style="font-size: 20px;">
           Take the presence of a basement!
         </p>
-        <img src="assets/plots/privacy-plot.png" alt="Scatterplot Privacy" width="600" height="400" />
+        <img src="plots/privacy-plot.png" alt="Scatterplot Privacy" width="600" height="400" />
         <p><small>⇒ Avoid regions indicated by the cursor!</small></p>
       </section>
 

@@ -1,16 +1,16 @@
 # DS EDA Project: King County House Prices
 
-**CAVEAT:**
-
-If you are not a bot and your presence here is not fully deliberate, you are probably in the wrong place! There are several serious flaws, see also [here](./flaws.md).
-
 ## Synopsis
 
-This repository contains an analysis of a dataset featuring information about house sales in King County. The purpose of this analysis is to infer recommendations for a (hopefully fictional) client whose description is as follows:
+This repository contains an analysis of a dataset featuring information about house sales in King County. The purpose of this analysis is to infer recommendations for a (hopefully fictional) client whose description reads follows:
 
 > Amy Williams | Seller | Mafiosa, sells several central houses (top 10%) over time and needs average outskirt houses over time to hide from the FBI.
 
 For more details about the assignment, please refer to [this file](./archive/assignment.md).
+
+We define measures centrality, exceptionality, privacy
+
+TODO: The data set is retrieved from the neue fische database. It is very similar to <https://www.kaggle.com/datasets/harlfoxem/housesalesprediction> but contains possibly contaminations deliberatively injected by the instructors for exercise purposes.
 
 ## Repository Organisation
 
@@ -19,8 +19,7 @@ The organization of the repository follows common conventions and therefore requ
 | Path | Content |
 | --- | --- |
 | [`./notebooks/*.ipynb`](./notebooks) | Analysis notebooks with technical details |
-| [`./docs/slides.html`](./docs/slides.md) | Presentation slides for non-technical audience |
-| [`./plots/*.png`](./docs) | Plots created by the notebooks |
+| [`./docs/presentation.html`](./docs/presentation.md) | Presentation slides for non-technical audience |
 
 ## Installation
 
