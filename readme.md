@@ -6,15 +6,15 @@ This repository contains an analysis of a dataset featuring information about ho
 
 The purpose of this analysis is to infer recommendations for a (hopefully fictional) client whose description reads follows:
 
-> Amy Williams | Seller | Mafiosa, sells several central houses (top 10 %) over time and needs average outskirt houses over time to hide from the FBI.
+> Amy Williams | Seller | Mafiosa, sells several central houses (top 10%) over time and needs average outskirt houses over time to hide from the FBI.
 
 For more details about the assignment, please refer to [this file](./archive/assignment.md).
 
-In order to derive recommendations for the client, we introduce statistical measure for centrality, exceptionality and privacy in order to make our claims quantifiable.
+We introduce statistical measures for centrality, exceptionality and privacy in order to derive recommendations for the client supported by quantifiable evidence.
 
 ## Repository Organisation
 
-The organisation of the repository follows common conventions and therefore requires little explanation. Let us only mention that our analysis notebooks (with technical details) is subordinated to [`notebooks/`](./notebooks/) and that our presentation slides for a non-technical audience can be found in [`docs/`](./docs/).
+The organisation of the repository follows common conventions and therefore requires little explanation. Let us only mention that our analysis notebooks (with technical details) are subordinated to [`notebooks/`](./notebooks/) and that our presentation slides for a non-technical audience can be found in [`docs/`](./docs/).
 
 ## Installation
 
@@ -61,6 +61,6 @@ The organisation of the repository follows common conventions and therefore requ
 
 **Authors:** [kvn-dtrx](https://github.com/kvn-dtrx)
 
-**Template:** This repository was created from the [Neue Fische DS EDA Project Template](https://github.com/neuefische/ds-eda-project-template).
+**Template:** This repository was instantiated from the [Neue Fische DS EDA Project Template](https://github.com/neuefische/ds-eda-project-template).
 
 **License:** [MIT License](license.txt)
